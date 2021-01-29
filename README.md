@@ -1,4 +1,6 @@
 # chinese_poetry
-# 一个在colab中编写的基于tf2.0实现的自动写诗程序。
-# 原理是利用LSTM做多分类，代码实现了写五言句子，也就是x是一句诗，y就是下一个词，然后依次往后移动。
-# 效果不太好，在colab中没有训练完成，有想玩玩的可以试一下。
+- 基于Tensorflow2实现。
+- 可以直接在colab中运行，不需要配置本地环境，这个notebook中训练了一会我就停掉了，没有训练完。
+- 模型训练了写5言诗。
+- 参考自：https://github.com/youyuge34/Poems_generator_Keras
+
